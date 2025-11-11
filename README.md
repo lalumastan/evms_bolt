@@ -3,7 +3,7 @@
 A production-ready React Native mobile application for managing employee vaccinations with role-based access control, real-time updates, and comprehensive CRUD operations.
 
 ## Process
-
+```mermaid
           graph TB
           Start([🎬 Old YouTube Video<br />Android + REST API + Heroku])
 
@@ -42,7 +42,7 @@ A production-ready React Native mobile application for managing employee vaccina
           style Bolt fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px,color:#fff
           style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#fff
           style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#fff
-
+```
 ## Features
 
 - **Authentication**: Secure email/password authentication with Supabase
