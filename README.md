@@ -43,6 +43,10 @@ A production-ready React Native mobile application for managing employee vaccina
           style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#fff
           style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#fff
 ```
+
+## Tutorial
+<a  href="http://www.youtube.com/watch?feature=player_embedded&v=vXQ3cQefvZU"  target="_blank"><img  src="http://img.youtube.com/vi/vXQ3cQefvZU/0.jpg"  alt="I Used AI to Modernize My 3-Year-Old App in 10 Minutes (React Native 2025)"  width="240"  height="180"  border="10"  /></a>
+
 ## Features
 
 - **Authentication**: Secure email/password authentication with Supabase
