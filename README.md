@@ -4,6 +4,7 @@ A production-ready React Native mobile application for managing employee vaccina
 
 ## Process
 ```mermaid
+          %%{init: {'theme':'dark'}}%%
           graph TB
           Start([🎬 Old YouTube Video<br />Android + REST API + Heroku])
 
