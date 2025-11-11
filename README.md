@@ -3,47 +3,46 @@
 A production-ready React Native mobile application for managing employee vaccinations with role-based access control, real-time updates, and comprehensive CRUD operations.
 
 ## Process
-```mermaid
-%%{init: {'theme':'dark','themeVariables': {'darkMode':true,'background':'#000000','mainBkg':'#1a1a1a','secondBkg':'#2d2d2d','tertiaryBkg':'#404040'}}}%%
-graph TB
-    Start([🎬 Old YouTube Video<br/>Android + REST API + Heroku])
-    
-    Start --> Analyze[🤔 Analyze with Claude AI<br/>What's modern in 2025?]
-    
-    Analyze --> Decision{🔀 Technology Choice}
-    
-    Decision -->|Winner| RN[⚛️ React Native<br/>Cross-platform FTW]
-    Decision -->|Alternative| Android[🤖 Android Studio<br/>Jetpack Compose]
-    
-    RN --> Modern[✨ Modern Stack Selection]
-    
-    Modern --> Stack1[🔐 Firebase Auth<br/>Social Login + Email]
-    Modern --> Stack2[🗄️ Supabase<br/>PostgreSQL + GraphQL]
-    Modern --> Stack3[📱 React Native + Expo<br/>iOS + Android + Web]
-    
-    Stack1 & Stack2 & Stack3 --> Script[📝 Generate Bolt.new Script<br/>Production-ready prompt]
-    
-    Script --> Bolt[⚡ Bolt.new AI<br/>Code Generation]
-    
-    Bolt --> Magic[🎨 Generated App]
-    
-    Magic --> Features1[✅ Login/Register UI]
-    Magic --> Features2[✅ CRUD Operations]
-    Magic --> Features3[✅ Role-based Access]
-    Magic --> Features4[✅ Real-time Updates]
-    
-    Features1 & Features2 & Features3 & Features4 --> Test[🧪 Test & Deploy]
-    
-    Test --> Result([🚀 Production App<br/>iOS + Android Ready!])
-    
-    style Start fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#000
-    style Analyze fill:#3b82f6,stroke:#1e40af,stroke-width:3px,color:#000
-    style RN fill:#22c55e,stroke:#15803d,stroke-width:3px,color:#000
-    style Script fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#000
-    style Bolt fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px,color:#000
-    style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#000
-    style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#000
-```
+
+          graph TB
+          Start([🎬 Old YouTube Video<br />Android + REST API + Heroku])
+
+          Start --> Analyze[🤔 Analyze with Claude AI<br />What's modern in 2025?]
+
+          Analyze --> Decision{🔀 Technology Choice}
+
+          Decision -->|Winner| RN[⚛️ React Native<br />Cross-platform FTW]
+          Decision -->|Alternative| Android[🤖 Android Studio<br />Jetpack Compose]
+
+          RN --> Modern[✨ Modern Stack Selection]
+
+          Modern --> Stack1[🔐 Firebase Auth<br />Social Login + Email]
+          Modern --> Stack2[🗄️ Supabase<br />PostgreSQL + GraphQL]
+          Modern --> Stack3[📱 React Native + Expo<br />iOS + Android + Web]
+
+          Stack1 & Stack2 & Stack3 --> Script[📝 Generate Bolt.new Script<br />Production-ready prompt]
+
+          Script --> Bolt[⚡ Bolt.new AI<br />Code Generation]
+
+          Bolt --> Magic[🎨 Generated App]
+
+          Magic --> Features1[✅ Login/Register UI]
+          Magic --> Features2[✅ CRUD Operations]
+          Magic --> Features3[✅ Role-based Access]
+          Magic --> Features4[✅ Real-time Updates]
+
+          Features1 & Features2 & Features3 & Features4 --> Test[🧪 Test & Deploy]
+
+          Test --> Result([🚀 Production App<br />iOS + Android Ready!])
+
+          style Start fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+          style Analyze fill:#3b82f6,stroke:#1e40af,stroke-width:3px,color:#fff
+          style RN fill:#22c55e,stroke:#15803d,stroke-width:3px,color:#fff
+          style Script fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+          style Bolt fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px,color:#fff
+          style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#fff
+          style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#fff
+
 ## Features
 
 - **Authentication**: Secure email/password authentication with Supabase
