@@ -36,13 +36,13 @@ graph TB
     
     Test --> Result([🚀 Production App<br/>iOS + Android Ready!])
     
-    style Start fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style Analyze fill:#3b82f6,stroke:#1e40af,stroke-width:3px,color:#fff
-    style RN fill:#22c55e,stroke:#15803d,stroke-width:3px,color:#fff
-    style Script fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style Bolt fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px,color:#fff
-    style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#fff
-    style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#fff
+    style Start fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#000
+    style Analyze fill:#3b82f6,stroke:#1e40af,stroke-width:3px,color:#000
+    style RN fill:#22c55e,stroke:#15803d,stroke-width:3px,color:#000
+    style Script fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#000
+    style Bolt fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px,color:#000
+    style Magic fill:#ec4899,stroke:#be185d,stroke-width:3px,color:#000
+    style Result fill:#10b981,stroke:#047857,stroke-width:4px,color:#000
 ```
 ## Features
 
